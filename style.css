@@ -1,0 +1,125 @@
+@charset  "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Henny+Penny&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mansalva&family=Manufacturing+Consent&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Quicksand:wght@300..700&family=Shadows+Into+Light+Two&display=swap');
+
+:root {
+   --font-padrão:"Nunito", sans-serif;
+
+   --font-especial:"Mansalva", sans-serif;
+}
+
+h1 {
+    font-family: var(--font-especial);
+    font-weight: normal;
+}
+
+h2 {
+    font-family: var(--font-especial);
+    font-weight: normal;
+}
+
+h3 {
+    font-family: var(--font-padrão);
+    font-weight: normal;
+}
+
+p {
+    font-family: var(--font-padrão);
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(imagens/fundo-allblack.jpg);
+}
+
+header {
+    background-color:black;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    height: 85px;
+    width: auto;
+    padding-bottom: 15px;
+    box-shadow: 10px black;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    height: 60px;
+    width: auto;
+    margin-top:-5px;
+    margin-bottom: 15px;
+    border-radius: 0px 0px 10px 10px;
+    word-spacing: 15px;
+}
+
+nav a {
+    font-family: var(--font-padrão);
+    color: rgb(167, 167, 167);
+}
+
+nav a:hover {
+    color: rgb(160, 0, 0);
+    transition-duration: 0.5s;
+}
+
+main {
+    background-image: linear-gradient(to bottom, black, rgba(255, 94, 0, 0.281));
+    border-radius: 10px;
+    box-shadow: 15px black;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+main h1 {
+    font-size: 2em;
+}
+
+main img {
+    border-radius: 15px;
+}
+
+main a {
+    color: rgb(255, 130, 130);
+}
+
+main a:hover {
+    color: darkred;
+    transition-duration: 0.3s;
+}
+
+footer {
+    background-color:black;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    height: 85px;
+    width: auto;
+    padding-bottom: 15px;
+    box-shadow: 10px black;
+}
+
+footer p {
+    background-color:black;
+    text-align: center;
+    color: white;
+    width: auto;
+    padding-top: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: darkred;
+    transition-duration: 0.5s;
+}
